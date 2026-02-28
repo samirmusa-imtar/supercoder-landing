@@ -12,7 +12,12 @@ module.exports = {
       env: {
         NODE_ENV: "production",
         PORT: 3000,
+        NODE_OPTIONS: "--max-old-space-size=384",
       },
+      error_file: "/home/ubuntu/.pm2/logs/supercoder-landing-error.log",
+      out_file: "/home/ubuntu/.pm2/logs/supercoder-landing-out.log",
+      merge_logs: true,
+      log_date_format: "YYYY-MM-DD HH:mm:ss Z",
     },
   ],
 };

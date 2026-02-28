@@ -36,6 +36,7 @@ export function DemoForm() {
           companySize: data.get("companySize"),
           monthlyInterviews: data.get("monthlyInterviews"),
           message: data.get("message"),
+          consent: true,
         }),
       });
       if (!res.ok) throw new Error("خطأ في الإرسال");
@@ -74,11 +75,16 @@ export function DemoForm() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           onSubmit={handleSubmit}
-          className="rounded-2xl border border-slate-200/80 bg-white p-5 shadow-sm"
+          className="relative rounded-2xl border border-slate-200/80 bg-white p-5 shadow-sm"
         >
           {errors.form && (
             <p className="mb-4 text-sm text-red-600">{errors.form}</p>
           )}
+          {/* Honeypot: hidden from users; bots that fill it get fake success */}
+          <div className="absolute -left-[9999px] opacity-0" aria-hidden="true">
+            <label htmlFor="company_website">Website</label>
+            <input id="company_website" name="company_website" type="text" tabIndex={-1} autoComplete="off" />
+          </div>
           <div className="grid gap-4 sm:grid-cols-2">
             <div>
               <label htmlFor="fullName" className="mb-1 block text-sm font-semibold text-slate-700">
