@@ -336,9 +336,9 @@ export const formSelectOptions = {
 export const footerContent = {
   partner: "بالشراكة مع IMTAR",
   links: [
-    { label: "الخصوصية", href: "/privacy" },
-    { label: "الشروط", href: "/terms" },
-    { label: "شروط المرشحين", href: "/terms-candidates" },
+    { label: "سياسة الخصوصية", href: "/privacy" },
+    { label: "شروط الخدمة للشركات", href: "/terms" },
+    { label: "شروط الخدمة للمرشحين", href: "/terms-candidates" },
     { label: "تواصل", href: "#demo" },
   ],
 } as const;
