@@ -228,6 +228,331 @@ export default function TermsPage() {
           </p>
         </section>
 
+        <section
+          className="mt-16 space-y-6 border-t border-slate-200 pt-12 text-slate-700"
+          aria-labelledby="enterprise-terms-heading"
+        >
+          <h2
+            id="enterprise-terms-heading"
+            className="text-2xl font-bold text-slate-900"
+          >
+            شروط الخدمة لعملاء المؤسسات (Supercoder)
+          </h2>
+
+          <div className="space-y-6">
+            <div>
+              <h3 className="text-xl font-bold text-slate-900">المادة 1. الغرض</h3>
+              <p className="mt-2">
+                تهدف هذه الشروط والأحكام إلى تحديد الحقوق والواجبات والمسؤوليات
+                بين شركة Second Team Co., Ltd. (ويشار إليها فيما بعد بـ
+                &quot;الشركة&quot;) والشركات المتعاقدة (ويشار إليها فيما بعد بـ
+                &quot;الأعضاء&quot;) فيما يتعلق باستخدام خدمة المقابلات المعتمدة
+                على الذكاء الاصطناعي (ويشار إليها فيما بعد بـ &quot;الخدمة&quot;)
+                المقدمة من قبل الشركة.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-slate-900">
+                المادة 2. تعريف المصطلحات
+              </h3>
+              <h4 className="mt-3 font-semibold text-slate-900">1) التعريفات</h4>
+              <ul className="mt-2 list-disc space-y-2 ps-6">
+                <li>
+                  <strong>الخدمة:</strong> تشير إلى جميع الوظائف الإضافية اللازمة
+                  للمقابلات بالذكاء الاصطناعي، بما في ذلك إنشاء الأسئلة، جمع
+                  الإجابات، تقديم تقارير التحليل، وتشغيل عملية التوظيف التي تقدمها
+                  الشركة.
+                </li>
+                <li>
+                  <strong>العضو:</strong> يشير إلى العملاء من الشركات الذين
+                  يوافقون على هذه الشروط والأحكام ويبرمون اتفاقية خدمة مع الشركة
+                  لاستخدام الخدمة.
+                </li>
+                <li>
+                  <strong>المشروع:</strong> يشير إلى وحدة مقابلة الذكاء الاصطناعي
+                  التي ينشئها العضو لإعلان توظيف محدد.
+                </li>
+                <li>
+                  <strong>المسؤول:</strong> يشير إلى ممثل العضو الذي يمتلك
+                  صلاحيات تشغيلية مثل إنشاء المشروع/التفويض/الدفع.
+                </li>
+                <li>
+                  <strong>المتقدم:</strong> يشير إلى الفرد المشارك في عملية
+                  التوظيف الخاصة بالعضو.
+                </li>
+                <li>
+                  <strong>المقابلة بالذكاء الاصطناعي:</strong> العملية التي يقوم
+                  فيها نظام الشركة بإنشاء وعرض الأسئلة وجمع الردود وتقديم تقارير
+                  التحليل.
+                </li>
+                <li>
+                  <strong>بيانات المقابلة:</strong> جميع الفيديوهات والتسجيلات
+                  الصوتية والنصوص والسجلات الناتجة عن المقابلة.
+                </li>
+                <li>
+                  <strong>الخدمة المدفوعة:</strong> خدمات تتطلب رسوم وتشمل خطط
+                  الاشتراك.
+                </li>
+                <li>
+                  <strong>الرصيد (Credit):</strong> الحد الأقصى للاستخدام خلال
+                  فترة الاشتراك.
+                </li>
+                <li>
+                  <strong>الانتهاء:</strong> انتهاء صلاحية الرصيد غير المستخدم دون
+                  ترحيل.
+                </li>
+              </ul>
+              <h4 className="mt-4 font-semibold text-slate-900">2) أحكام عامة</h4>
+              <p className="mt-2">
+                تخضع التعريفات للقوانين ذات الصلة أو الأعراف التجارية.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-slate-900">
+                المادة 3. نشر وتعديل الشروط
+              </h3>
+              <ul className="mt-2 list-disc space-y-2 ps-6">
+                <li>يتم نشر الشروط على موقع الخدمة.</li>
+                <li>يجوز تعديلها مع إشعار مسبق.</li>
+                <li>يتم إخطار الأعضاء بالتغييرات الجوهرية مسبقًا.</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-slate-900">
+                المادة 4. تفسير الشروط
+              </h3>
+              <ul className="mt-2 list-disc space-y-2 ps-6">
+                <li>
+                  يمكن إبرام اتفاقيات منفصلة، وتكون لها الأولوية عند التعارض.
+                </li>
+                <li>تطبق القوانين ذات الصلة على ما لم يرد في هذه الشروط.</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-slate-900">
+                المادة 5. إبرام اتفاقية الخدمة
+              </h3>
+              <ul className="mt-2 list-disc space-y-2 ps-6">
+                <li>
+                  يتم إبرام الاتفاق عند الموافقة وإتمام التسجيل أو الشراء.
+                </li>
+                <li>يجوز للشركة رفض الطلب لأسباب تقنية أو تشغيلية.</li>
+                <li>يتحمل العضو مسؤولية تحديث بياناته.</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-slate-900">
+                المادة 6. تقديم المستندات
+              </h3>
+              <p className="mt-2">
+                يجوز للشركة طلب مستندات رسمية مثل السجل التجاري أو تفويض
+                الصلاحيات.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-slate-900">
+                المادة 7. حماية المعلومات الشخصية
+              </h3>
+              <ul className="mt-2 list-disc space-y-2 ps-6">
+                <li>تتم المعالجة وفق سياسة الخصوصية والقوانين.</li>
+                <li>يلتزم الأعضاء بالحصول على الموافقات اللازمة.</li>
+                <li>تستخدم البيانات فقط لأغراض التوظيف.</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-slate-900">
+                المادة 8. إسناد المعالجة
+              </h3>
+              <p className="mt-2">
+                يجوز للشركة إسناد معالجة البيانات لطرف ثالث مع الإشراف عليه.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-slate-900">
+                المادة 9. الحسابات وكلمات المرور
+              </h3>
+              <ul className="mt-2 list-disc space-y-2 ps-6">
+                <li>يجب الحفاظ على سرية الحساب.</li>
+                <li>لا يجوز مشاركة الحساب.</li>
+                <li>يتحمل العضو أي أضرار نتيجة سوء الاستخدام.</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-slate-900">
+                المادة 10. الإشعارات
+              </h3>
+              <p className="mt-2">
+                يتم التواصل عبر البريد الإلكتروني أو داخل النظام.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-slate-900">
+                المادة 11. تقديم وتعليق الخدمة
+              </h3>
+              <ul className="mt-2 list-disc space-y-2 ps-6">
+                <li>توفر الشركة خدمات المقابلات والتحليل.</li>
+                <li>يجوز تعليق الخدمة مؤقتًا لأسباب تقنية.</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-slate-900">
+                المادة 12. خدمة المقابلات بالذكاء الاصطناعي
+              </h3>
+              <ul className="mt-2 list-disc space-y-2 ps-6">
+                <li>يمكن إنشاء وتعديل الأسئلة.</li>
+                <li>يتم تسجيل المقابلات وتقديم تقارير.</li>
+                <li>التقارير مرجعية فقط وليست قرارًا نهائيًا.</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-slate-900">
+                المادة 13. تعديل الخدمة
+              </h3>
+              <p className="mt-2">يجوز تعديل الخدمة مع إشعار مسبق.</p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-slate-900">
+                المادة 14. المعلومات والإعلانات
+              </h3>
+              <ul className="mt-2 list-disc space-y-2 ps-6">
+                <li>يمكن عرض إشعارات أو تحديثات.</li>
+                <li>قد يتم عرض إعلانات طرف ثالث.</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-slate-900">
+                المادة 15. الملكية الفكرية
+              </h3>
+              <ul className="mt-2 list-disc space-y-2 ps-6">
+                <li>تعود حقوق الشركة لمحتواها.</li>
+                <li>تعود حقوق محتوى العضو له.</li>
+                <li>يمنح العضو ترخيص استخدام محدود للشركة.</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-slate-900">
+                المادة 16. قيود الاستخدام
+              </h3>
+              <p className="mt-2">
+                يجوز تقييد الاستخدام في حالات إساءة الاستخدام أو الاختراق.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-slate-900">
+                المادة 17. إنهاء الخدمة
+              </h3>
+              <ul className="mt-2 list-disc space-y-2 ps-6">
+                <li>يمكن للعضو إنهاء العقد.</li>
+                <li>تبقى بعض الالتزامات سارية بعد الإنهاء.</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-slate-900">المادة 18. الرسوم</h3>
+              <ul className="mt-2 list-disc space-y-2 ps-6">
+                <li>يتم تحديد الرسوم وفق الاتفاق.</li>
+                <li>يجوز تعديلها مع إشعار مسبق.</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-slate-900">
+                المادة 19. الاشتراكات والأرصدة
+              </h3>
+              <ul className="mt-2 list-disc space-y-2 ps-6">
+                <li>يتم منح أرصدة ضمن فترة محددة.</li>
+                <li>تنتهي الأرصدة غير المستخدمة دون ترحيل.</li>
+                <li>يتم الخصم عند الاستخدام.</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-slate-900">المادة 20. الدفع</h3>
+              <p className="mt-2">
+                تشمل طرق الدفع التحويل أو البطاقة أو الفاتورة.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-slate-900">المادة 21. الاسترداد</h3>
+              <ul className="mt-2 list-disc space-y-2 ps-6">
+                <li>يمكن الاسترداد خلال 7 أيام في حال عدم الاستخدام.</li>
+                <li>لا يتم الاسترداد بعد الاستخدام.</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-slate-900">
+                المادة 22. المدفوعات الزائدة
+              </h3>
+              <p className="mt-2">يتم رد أي مبالغ زائدة.</p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-slate-900">
+                المادة 23. التزامات الشركة
+              </h3>
+              <p className="mt-2">
+                تلتزم الشركة بتقديم خدمة مستقرة وحماية البيانات.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-slate-900">
+                المادة 24. التزامات الأعضاء
+              </h3>
+              <p className="mt-2">يلتزم الأعضاء بالقوانين وحماية البيانات.</p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-slate-900">المادة 25. التعويض</h3>
+              <p className="mt-2">
+                يتم التعويض وفق القوانين في حالات الإهمال.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-slate-900">
+                المادة 26. تحديد المسؤولية
+              </h3>
+              <ul className="mt-2 list-disc space-y-2 ps-6">
+                <li>لا تتحمل الشركة المسؤولية في حالات القوة القاهرة.</li>
+                <li>لا تضمن نتائج التوظيف.</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-slate-900">
+                المادة 27. القانون والاختصاص
+              </h3>
+              <ul className="mt-2 list-disc space-y-2 ps-6">
+                <li>تخضع النزاعات لقوانين جمهورية كوريا.</li>
+                <li>يتم تحديد المحكمة المختصة وفق القانون.</li>
+              </ul>
+            </div>
+
+            <p className="border-t border-slate-200 pt-6 text-sm font-semibold text-slate-900">
+              تاريخ السريان: 29 يناير 2026
+            </p>
+          </div>
+        </section>
+
         <div className="mt-16 flex justify-center gap-4">
           <Link
             href="/privacy"

@@ -338,6 +338,7 @@ export const footerContent = {
   links: [
     { label: "الخصوصية", href: "/privacy" },
     { label: "الشروط", href: "/terms" },
+    { label: "شروط المرشحين", href: "/terms-candidates" },
     { label: "تواصل", href: "#demo" },
   ],
 } as const;
